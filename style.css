@@ -1,0 +1,93 @@
+body {
+    background: url(./img/Fotomain.jpg);
+    background-size: cover;
+    /* Розтягуємо фото, щоб воно вписувалось у весь екран */
+    background-repeat: no-repeat;
+    /* Вимикаємо повторення фото */
+}
+
+.header-menu {
+    text-align: center;
+    /* Вирівнювання по центру */
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 70px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.header-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#search {
+    text-align: center;
+}
+
+.p {
+    text-align: left;
+    color: #dedada;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px rgb(214, 31, 202);
+}
+
+.main h1 {
+    text-align: center;
+    color: #dedada;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px rgb(214, 31, 202);
+}
+
+.main h4 {
+    text-align: center;
+    color: #dedada;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px rgb(214, 31, 202);
+}
+
+
+.footer {
+    color: #dedada;
+    font-family: cursive;
+}
+
+.pizza-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.pizza {
+    display: block;
+    margin: 25px;
+}
+
+input {
+    border: 2px solid #bb176c;
+    color: rgb(223, 37, 186);
+    width: 400px;
+}
+
+#img-footer {
+    width: 70px;
+    height: auto;
+    float: center;
+    margin: 15px 50px;
+    transform: rotate(20deg);
+}
+
+.footer {
+    position: absolute;
+}
