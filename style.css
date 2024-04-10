@@ -91,3 +91,19 @@ input {
 .footer {
     position: absolute;
 }
+
+/* Сусідній селектор */
+.section+.section {
+    margin-top: 60px;
+}
+
+/* Дочірній селектор */
+.container>.section {
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+/* Селектор атрибута */
+h2[data-type="title"] {
+    color: rgb(0, 0, 0);
+}
