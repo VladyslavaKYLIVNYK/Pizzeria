@@ -6,6 +6,13 @@ body {
     /* Вимикаємо повторення фото */
 }
 
+header {
+    background-color: #a017bb;
+    color: #fff;
+    padding: 20px 0;
+
+}
+
 .header-menu {
     text-align: center;
     /* Вирівнювання по центру */
@@ -57,11 +64,6 @@ body {
 }
 
 
-.footer {
-    color: #dedada;
-    font-family: cursive;
-}
-
 .pizza-list {
     display: flex;
     flex-direction: row;
@@ -89,8 +91,49 @@ input {
 }
 
 .footer {
-    position: absolute;
+    background-color: url(./img/Fotomain.jpg);
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
+.footer-container {
+    padding: 8px;
+    display: flex;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, .7);
+    justify-content: space-between;
+}
+
+.container1 {
+    font-size: 14px;
+    padding: 8px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 {
+    box-sizing: border-box;
+}
+
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    /* Задайте потрібну ширину для іконок */
+    height: auto;
+}
+
 
 /* Сусідній селектор */
 .section+.section {
